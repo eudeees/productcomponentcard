@@ -1,0 +1,135 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 600px;
+    height: 450px;
+    background-color: hsl(30, 38%, 92%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container Img {
+    width: 300px;
+    height: 450px;
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.description {
+    width: 300px;
+    height: 450px;
+    font-family: 'Montserrant,' sans-serif;
+
+}
+
+.text-class {
+    padding: 32px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+}
+
+.title {
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.tex {
+    width: 240px;
+    margin-bottom: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 23px;
+}
+
+
+
+.value {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-top: -24px;
+    padding-left: 32px;
+}
+
+
+
+.onSale {
+
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    color: #3D8168;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.originalValue {
+    
+    color: hsl(228, 12%, 48%);;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    text-decoration: line-through;
+
+}
+
+button {
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    margin: 28px;
+    background-color: #3D8168;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    line-height: normal;
+    
+}
+
+button svg {
+    width: 14.385px;
+    height: 16px;
+    margin-right: 10px;
+
+}
